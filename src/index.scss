@@ -1,0 +1,13 @@
+@import "./ui/fonts";
+@import "./ui/colors";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'NanumSquareNeo-Variable';
+  overflow-x: hidden;
+}

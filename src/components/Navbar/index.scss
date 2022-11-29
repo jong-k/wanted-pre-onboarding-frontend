@@ -1,0 +1,42 @@
+@import "../../ui/colors";
+@import "../../ui/values";
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: $navbarheight;
+  width: 100%;
+  padding: 0 3vw;
+  background: $primarylight;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .logo {
+    font-family: 'Schoolbell', cursive;
+    font-size: 2.5rem;
+    cursor: pointer;
+    color: $lightwhite;
+    transition: all 0.3s ease;
+  }
+
+  .tab {
+    .link {
+      text-decoration: none;
+      padding: 0.6vw 0.7vw;
+      color: $lightwhite;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 1.3rem;
+      font-weight: 600;
+      letter-spacing: 1px;
+      transition: 0.3s all ease-in-out;
+      border-radius: 4px;
+
+      &:hover {
+        background: #244b8a;
+      }
+    }
+  }
+}

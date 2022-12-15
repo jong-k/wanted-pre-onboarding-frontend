@@ -17,8 +17,8 @@ const CreateTodo = () => {
   }, [title]);
 
   useEffect(() => {
-    if (items.length) setItems([...items].concat(todo));
-    else setItems(todo);
+    const newItems = items.length ? [...items] : [];
+    setItems(newItems.concat(todo));
   }, [todo]);
 
   const onSubmit = (e) => {

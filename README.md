@@ -10,7 +10,7 @@ npm start
 - netlify 를 이용하여 배포
 
 
-사이트
+https://marvelous-druid-7066dc.netlify.app/
 
 ## 3. 폴더 구조
 ```

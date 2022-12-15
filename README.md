@@ -1,4 +1,5 @@
 # 원티드 프리온보딩 프론트엔드 선발 과제
+작성자 : 김종한
 ## 1. 프로젝트 실행 방법
 ```
 git clone https://github.com/jong-k/wanted-pre-onboarding-frontend
